@@ -23,5 +23,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          push: ture
+          push: true
           tags : ${{ secrets.DOCKERHUB_USERNAME }}/eshopweb:latest
