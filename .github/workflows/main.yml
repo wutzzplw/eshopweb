@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: ture
-          tags : ${{ secrets.DOCKER_USERNAME }}/eshopweb:latest
+          tags : ${{ secrets.DOCKERHUB_USERNAME }}/eshopweb:latest
